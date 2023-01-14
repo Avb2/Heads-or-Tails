@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heads or Tails</title>
+    <script type="application/javascript" src="hot.js"></script>
+    <link rel="stylesheet" href="hot.css">
+</head>
+
+<div id="header">
+    <h1 id="hot-title"><span id="hot-title-split1">Heads o</span><span id="hot-title-split2">r Tails</span></h1>
+</div>
+
+
+<body>
+<label>
+    Type your guess here
+    <input id="userGuess" type="text">
+</label>
+
+<br> <br>
+
+<button id="flipButton" onclick="flip()">Flip The Coin</button>
+<input id="resetButton" type="reset" onclick="reset()">
+
+<h2 id="correct-prompt">The correct answer:</h2>
+<h3 id="result"></h3>
+<h3 id="usercompare"></h3>
+</body>
+</html>

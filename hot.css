@@ -1,0 +1,12 @@
+html {text-align: center;}
+
+#hot-title {border-bottom: 3px #325d05 dotted;}
+
+#hot-title-split1 {color: #d0af00;}
+
+#hot-title-split2 {color: rgba(118, 117, 117, 0.87);}
+
+#header {background-color: #ded7d7;}
+
+#correct-prompt {border-top: 1px black solid;}
+}
